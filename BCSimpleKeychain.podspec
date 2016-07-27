@@ -6,10 +6,9 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   
   s.summary      = 'Dead simple keychain wrapper for iOS.'
-  s.homepage     = 'http://EXAMPLE/BCSimpleKeychain'
-  
-  s.author             = { 'Jaydeep' => 'jaydeep21.patoliya@gmail.com' }
-  s.source       = { :git => 'http://EXAMPLE/BCSimpleKeychain.git', :tag => '#{s.version}' }
+  s.homepage     = 'https://github.com/JaydeepOpus/BCSimpleKeychain.git'
+  s.author             = { 'Jaydeep' => 'jaydeep.patoliya@opusconsulting.com' }
+  s.source       = { :git => 'https://github.com/JaydeepOpus/BCSimpleKeychain.git', :tag => '#{s.version}' }
   s.platform = :ios
   s.requires_arc = true
   s.source_files = 'BCSimpleKeychain/**/*.{h,m}'
