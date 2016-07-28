@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'BCSimpleKeychain'
-  s.version      = '0.1.0'
+  s.version      = '0.2.0'
   s.license      = 'MIT'
   s.summary      = 'Dead simple keychain wrapper for iOS.'
   s.homepage     = 'https://github.com/JaydeepOpus/BCSimpleKeychain.git'
