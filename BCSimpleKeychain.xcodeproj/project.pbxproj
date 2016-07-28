@@ -18,6 +18,8 @@
 		63CEB20B1D48DE09004BADFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB2031D48DE09004BADFF /* main.m */; };
 		63CEB20C1D48DE09004BADFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB2051D48DE09004BADFF /* ViewController.m */; };
 		63CEB20E1D48DF09004BADFF /* BCSimpleKeychain.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB20D1D48DF09004BADFF /* BCSimpleKeychain.podspec */; };
+		63CEB2101D49DEB6004BADFF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB20F1D49DEB6004BADFF /* README.md */; };
+		63CEB2121D49DED1004BADFF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB2111D49DED1004BADFF /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		63CEB2041D48DE09004BADFF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63CEB2051D48DE09004BADFF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63CEB20D1D48DF09004BADFF /* BCSimpleKeychain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = BCSimpleKeychain.podspec; sourceTree = "<group>"; };
+		63CEB20F1D49DEB6004BADFF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		63CEB2111D49DED1004BADFF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		63CEB1B41D48DBD4004BADFF = {
 			isa = PBXGroup;
 			children = (
+				63CEB2111D49DED1004BADFF /* LICENSE */,
+				63CEB20F1D49DEB6004BADFF /* README.md */,
 				63CEB20D1D48DF09004BADFF /* BCSimpleKeychain.podspec */,
 				63CEB1BF1D48DBD4004BADFF /* BCSimpleKeychain */,
 				63CEB1FA1D48DE09004BADFF /* Example */,
@@ -252,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CEB2121D49DED1004BADFF /* LICENSE in Resources */,
 				63CEB2081D48DE09004BADFF /* LaunchScreen.storyboard in Resources */,
 				63CEB20E1D48DF09004BADFF /* BCSimpleKeychain.podspec in Resources */,
 				63CEB2071D48DE09004BADFF /* Assets.xcassets in Resources */,
@@ -283,6 +290,7 @@
 			files = (
 				63CEB1F91D48DE01004BADFF /* BCSimpleKeychain.m in Sources */,
 				63CEB20B1D48DE09004BADFF /* main.m in Sources */,
+				63CEB2101D49DEB6004BADFF /* README.md in Sources */,
 				63CEB2061D48DE09004BADFF /* AppDelegate.m in Sources */,
 				63CEB20C1D48DE09004BADFF /* ViewController.m in Sources */,
 			);
@@ -508,6 +516,7 @@
 				63CEB1EC1D48DBD4004BADFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CEB1ED1D48DBD4004BADFF /* Build configuration list for PBXNativeTarget "BCSimpleKeychainTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				63CEB1EF1D48DBD4004BADFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63CEB1F01D48DBD4004BADFF /* Build configuration list for PBXNativeTarget "BCSimpleKeychainUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +534,7 @@
 				63CEB1F21D48DBD4004BADFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
